@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@color/dark_gray"
+              tools:context=".MainActivity">
+
+    <ImageView android:id="@+id/l_image"
+               android:layout_width="156dp"
+               android:layout_height="156dp"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/l_0"
+    />
+    <Button android:id="@+id/btn_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/putar" />
+
+    <ImageView android:id="@+id/w_image"
+               android:layout_width="156dp"
+               android:layout_height="156dp"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/w_0"
+    />
+
+
+</LinearLayout>
